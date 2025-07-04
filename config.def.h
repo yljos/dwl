@@ -31,7 +31,7 @@ static int log_level = WLR_ERROR;
 
 /* Autostart */
 static const char *const autostart[] = {
-        "/usr/bin/sh", "/home/huai/.config/autostart", NULL,
+        "/bin/sh", "/home/huai/.config/autostart", NULL,
         NULL /* terminate */
 };
 
