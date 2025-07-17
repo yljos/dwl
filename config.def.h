@@ -42,6 +42,13 @@ static const Rule rules[] = {
 	/* examples: */
 	{ "Gimp_EXAMPLE",     NULL,       0,            1,           -1 }, /* Start on currently visible tags floating, not tiled */
 	{ "firefox_EXAMPLE",  NULL,       1 << 8,       0,           -1 }, /* Start on ONLY tag "9" */
+	{ "zen",                 NULL,       1 << 0,       0,           -1 },
+	{ "chromium",            NULL,       1 << 0,       0,           -1 },
+	{ "telegram",            NULL,       1 << 1,       0,           -1 },
+	{ "xfreerdp",            NULL,       1 << 2,       0,           -1 },
+	{ "foot",                NULL,       1 << 3,       0,           -1 }, 
+	{ "steam",               NULL,       1 << 5,       0,           -1 }, 
+	{ "Stardew Valley",      NULL,       1 << 6,       0,           -1 }, 
 };
 
 /* layout(s) */
