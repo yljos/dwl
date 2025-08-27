@@ -46,6 +46,7 @@ static const Rule rules[] = {
 	{ "chromium",            NULL,       1 << 0,       0,           -1 },
 	{ "telegram",            NULL,       1 << 1,       0,           -1 },
 	{ "xfreerdp",            NULL,       1 << 2,       0,           -1 },
+	{ "wlfxfreerdp",         NULL,       1 << 2,       0,           -1 },
 	{ "foot",                NULL,       1 << 3,       0,           -1 }, 
 	{ "steam",               NULL,       1 << 5,       0,           -1 }, 
 	{ "Stardew Valley",      NULL,       1 << 6,       0,           -1 }, 
