@@ -24,7 +24,7 @@ static uint32_t colors[][3]                = {
 };
 
 /* tagging - TAGCOUNT must be no greater than 31 */
-static char *tags[] = {"", "", "󰇄", "", "󰝚", "", ""};
+static char *tags[] = {"", "", "󰇄", "", "󰝚", "", ""};
 
 /* logging */
 static int log_level = WLR_ERROR;
