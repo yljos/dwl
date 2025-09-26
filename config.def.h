@@ -24,7 +24,7 @@ static uint32_t colors[][3]                = {
 };
 
 /* tagging - TAGCOUNT must be no greater than 31 */
-static char *tags[] = {"Firefox", "Telegram", "Windows", "Foot", "Music", "Steam", "Game"};
+static char *tags[] = {"Firefox", "Telegram", "Windows", "Foot", "Steam", "Game"};
 
 /* logging */
 static int log_level = WLR_ERROR;
@@ -46,8 +46,8 @@ static const Rule rules[] = {
 	{ "telegram",            NULL,       1 << 1,       0,           -1 },
 	{ "sdl-freerdp3",        NULL,       1 << 2,       0,           -1 },
 	{ "foot",                NULL,       1 << 3,       0,           -1 }, 
-	{ "steam",               NULL,       1 << 5,       0,           -1 }, 
-	{ "Stardew Valley",      NULL,       1 << 6,       0,           -1 }, 
+	{ "steam",               NULL,       1 << 4,       0,           -1 }, 
+	{ "Stardew Valley",      NULL,       1 << 5,       0,           -1 }, 
 };
 
 /* layout(s) */
