@@ -48,7 +48,7 @@ static const Rule rules[] = {
 	{ "foot",                NULL,       1 << 3,       0,           -1 }, 
 	{ "steam",               NULL,       1 << 4,       0,           -1 }, 
 	{ "Stardew Valley",      NULL,       1 << 5,       0,           -1 },
-        { "Minecraft*",          NULL,       1 << 5,       0,           -1 },
+        { "Minecraft* 1.21.8",          NULL,       1 << 5,       0,           -1 },
         { "prism",               NULL,       1 << 5,       0,           -1 },
 
 };
