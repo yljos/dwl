@@ -24,7 +24,7 @@ static uint32_t colors[][3]                = {
 };
 
 /* tagging - TAGCOUNT must be no greater than 31 */
-static char *tags[] = {"Firefox", "Telegram", "Windows", "Foot", "Steam", "Game"};
+static char *tags[] = {"Firefox", "Telegram", "Windows", "Alacritty", "Steam", "Game"};
 
 /* logging */
 static int log_level = WLR_ERROR;
@@ -145,7 +145,7 @@ static const enum libinput_config_tap_button_map button_map = LIBINPUT_CONFIG_TA
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 
 /* commands */
-static const char *termcmd[] = { "foot", NULL };
+static const char *termcmd[] = { "alacritty", NULL };
 static const char *menucmd[] = { "fuzzel", NULL };
 static const char *fcitx5cmd[] = { "/home/huai/.config/dwl/ime.sh", NULL };
 static const char *browsercmd[] = { "firefox", NULL };
