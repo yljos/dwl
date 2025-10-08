@@ -146,7 +146,7 @@ static const enum libinput_config_tap_button_map button_map = LIBINPUT_CONFIG_TA
 
 /* commands */
 static const char *termcmd[] = { "foot", NULL };
-static const char *menucmd[] = { "dmenu-run", NULL };
+static const char *menucmd[] = { "wmenu-run", NULL };
 static const char *fcitx5cmd[] = { "/home/huai/.config/dwl/ime.sh", NULL };
 static const char *browsercmd[] = { "firefox", NULL };
 static const Key keys[] = {
