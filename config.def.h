@@ -46,7 +46,7 @@ static const Rule rules[] = {
 	{ "telegram",            NULL,       1 << 1,       0,           -1 },
 	{ "sdl-freerdp3",        NULL,       1 << 2,       0,           -1 },
 	{ "wlfreerdp",           NULL,       1 << 2,       0,           -1 },
-	{ "freerdp",            NULL,       1 << 2,       0,           -1 },
+	{ "freerdp",             NULL,       1 << 2,       0,           -1 },
 	{ "foot",                NULL,       1 << 3,       0,           -1 }, 
 	{ "steam",               NULL,       1 << 4,       0,           -1 }, 
 	{ "Stardew Valley",      NULL,       1 << 5,       0,           -1 },
@@ -145,8 +145,8 @@ static const enum libinput_config_tap_button_map button_map = LIBINPUT_CONFIG_TA
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 
 /* commands */
-static const char *termcmd[] = { "alacritty", NULL };
-static const char *menucmd[] = { "fuzzel", NULL };
+static const char *termcmd[] = { "foot", NULL };
+static const char *menucmd[] = { "dmenu-run", NULL };
 static const char *fcitx5cmd[] = { "/home/huai/.config/dwl/ime.sh", NULL };
 static const char *browsercmd[] = { "firefox", NULL };
 static const Key keys[] = {
