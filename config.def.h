@@ -24,7 +24,7 @@ static uint32_t colors[][3]                = {
 };
 
 /* tagging - TAGCOUNT must be no greater than 31 */
-static char *tags[] = {"Firefox", "Telegram", "Windows", "Alacritty", "Steam", "Game"};
+static char *tags[] = {"Firefox", "Telegram", "Windows", "foot", "Steam", "Game"};
 
 /* logging */
 static int log_level = WLR_ERROR;
